@@ -221,6 +221,50 @@ font-weight: 700;
 
 /* End of hero section stylings */
 
+/* About Us Section */
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(21, 2, 2, 0.642), rgba(101, 53, 53, 0.692)), url(../assets/img/about-background.jpg);
+}
+.about-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-us {
+  min-height: 90vh;
+  width: 100%;
+  padding: 7.8rem 0;
+}
+
+.about-main-text {
+  font-size: 5rem;
+  padding: 4rem 0;
+  color: white;
+  text-align: center;
+}
+
+.about-img {
+    height: auto;
+  width: 30%;
+  border-radius: 5em;
+  
+}
+.about-text-sub {
+  color: white;
+  font-size: 2.5rem;
+  padding: 0 4rem;
+}
+  
+
+
+
+
+/* End of About Us Section */
+
 /* spaces section */
 .title {
   display: flex;
