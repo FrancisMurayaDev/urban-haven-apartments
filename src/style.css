@@ -424,7 +424,7 @@ margin-top: 5rem;
   background-color: aliceblue;
   color: rgb(41, 34, 34);
 }
-form {
+.form-contact {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
