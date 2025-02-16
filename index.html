@@ -89,16 +89,16 @@
               <a href="#">home</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="#">about</a>
+              <a href="#about-us">about</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="#">spaces</a>
+              <a href="#spaces">spaces</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="#">amenities</a>
+              <a href="#amenities">amenities</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="#">contact</a>
+              <a href="#contact">contact</a>
             </li>
           </ol>
         </nav>
@@ -133,7 +133,7 @@
     <!-- End of Hero Section -->
 
     <!-- About Us -->
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="about-main">
         <img
           src="./assets/img/about-us.jpg"
@@ -161,7 +161,7 @@
 
     <!-- spaces section -->
 
-    <section class="spaces-section">
+    <section class="spaces-section" id="spaces">
       <div class="title">
         <h2 class="title-main">Available Spaces</h2>
       </div>
@@ -342,7 +342,7 @@
     <!-- End of spaces section -->
 
     <!-- Amenities Section -->
-    <section class="amenities">
+    <section class="amenities" id="amenities">
       <div class="title-amenities">
         <h2><span>a</span>menities</h2>
       </div>
@@ -364,8 +364,39 @@
     <!-- End of Amenities Section -->
 
     <!-- Form Section -->
+     <section class="form" id="contact">
+    <h2 class="form-title">Contact Us</h2>
+    <p class="contact">Contact: +254718764327</p>
+   
+    <div class="contact-form">
+      <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required>
+        <br>
+        <label for="sname">Second Name</label>
+        <input type="text" id="sname" required>
+        <br>
+        <label for="email" >Email</label>
+        <input type="text" id="email" required>
+        <br>
+        
+        <label for="text-area">Leave your Message</label>
+        <textarea name="text" id="text-area"></textarea>
+        <br>
+        <button class="form-button">Submit</button>
+
+      </form>
+    </div>
+      
+     </section>
 
     <!-- End of Form  -->
+
+    <!-- Footer -->
+     <p>
+      <a href="#" class="copy-right">Copy Right @2025 - Haven Apartments.</a>
+     </p>
+     <!-- End of Footer -->
 
     <script type="module" src="/src/main.js"></script>
   </body>
