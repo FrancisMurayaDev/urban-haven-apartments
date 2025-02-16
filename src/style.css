@@ -141,7 +141,7 @@ font-size: 2rem;
 /* Hero Section Stylings */
 .hero-section {
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.692)), url(../assets/img/hero\ -background-img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.692)), url(../assets/img/hero-bckg.jpg);
   background-position:center;
   background-size: cover;
   display: flex;
