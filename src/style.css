@@ -1,11 +1,9 @@
 :root {
   --color-primary: #999a9b;
 --color-secondary: #0f8c4d;
---color-black: 00200c;
 --color-black-dark: #000000;
 --color-black-white: #9e9b9d;
---color-white: white;
---color-white-light: rgba(255, 255, 255, 0.785);
+--color-white: rgb(218, 216, 216);
 --primary-font: "Lora", serif;
 --secondary-font: "Roboto", serif;
 }
@@ -25,3 +23,92 @@ body {
   color: var(--color-primary);
   font-family: var(--primary-font);
 }
+
+/* Header Stylings */
+.top-header {
+  display: flex;
+  justify-content:space-between;
+  padding: 4rem 8rem;
+}
+
+@media screen and (max-width: 56.25em) {
+  .top-header {
+    padding: 4rem 4rem;
+  }
+  
+}
+
+@media screen and (max-width: 50em) {
+  .top-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+}
+
+.header-social-icons{
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--color-black-white);
+  display: flex;
+  --header-social-icon-width: 3rem;
+  width: var(--header-social-icon-width);
+  height: var(--header-social-icon-width);
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo-link {
+text-decoration: none;
+}
+
+.logo-text--main {
+  text-transform: uppercase;
+  color: var(--color-black-dark);
+  font-weight: 800;
+  font-size: large;
+
+}
+
+.logo-text--main span {
+  color: var(--color-secondary);
+}
+.logo-text--sub {
+text-transform: uppercase;
+color: var(--color-primary);
+font-size: 2rem;
+}
+
+@media screen and (max-width: 50em) {
+  .header-search {
+    width: 98%;
+    display: flex;
+  }    
+}
+  
+.header-search-input, .header-search-button {
+  padding: 1rem 1rem;
+  font-family: inherit;
+  outline: none;
+}
+.header-search-input {
+  background-color: var(--color-white);
+  border:1px solid var(--color-black-white);
+  flex-grow: 1;
+}
+
+.header-search-button {
+  background-color: var(--color-primary);
+  border: 1px var(--color-secondary);
+  color: var(--color-black-dark);
+  border-radius: 3px;
+}
+
+/* End of Header Stylings */
