@@ -385,6 +385,7 @@ margin-top: 5rem;
   display: flex;
   flex-wrap: nowrap;
   padding: 1rem;
+  border: 2px solid var(--color-primary);
 }
 /* End of Amenities  */
 
