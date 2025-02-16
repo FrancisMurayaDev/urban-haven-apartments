@@ -74,7 +74,8 @@ text-decoration: none;
   text-transform: uppercase;
   color: var(--color-black-dark);
   font-weight: 800;
-  font-size: large;
+  font-size: 4rem;
+  text-align: center;
 
 }
 
@@ -85,7 +86,10 @@ text-decoration: none;
 text-transform: uppercase;
 color: var(--color-primary);
 font-size: 2rem;
+text-align: center;
+font-weight: 700;
 }
+
 
 @media screen and (max-width: 50em) {
   .header-search {
