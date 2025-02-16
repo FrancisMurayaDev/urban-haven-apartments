@@ -417,6 +417,14 @@ margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: aliceblue;
+  color: rgb(41, 34, 34);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  
 }
 
 /* End of form section */
@@ -433,4 +441,5 @@ footer {
   color: var(--color-primary);
   padding: 4rem 2rem;
 }
+
 /* End of footer */
