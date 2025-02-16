@@ -374,11 +374,11 @@ margin-top: 5rem;
 
 .amenities-list {
   display: flex;
-  list-style:none:
+  list-style: none:
   font-weight: 600;
   gap: 3rem;
   padding: 2rem 2rem;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   color: var(--color-black-dark);
 }
 .amenities-list li {
