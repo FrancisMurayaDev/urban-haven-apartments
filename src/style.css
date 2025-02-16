@@ -6,6 +6,7 @@
 --color-white: white;
 --primary-font: "Lora", serif;
 --secondary-font: "Roboto", serif;
+--cury-font: "Delicious Handrawn", serif;
 }
 
 * {
@@ -181,8 +182,10 @@ font-weight: 700;
 .hero-text-sub {
   text-align: center;
   color: var(--color-white);
-  font-size: 2rem;
-  font-family: var(--secondary-font);
+  font-size: 2.5rem;
+  font-family: var(--cury-font);
+  word-spacing: 1rem;
+  outline-color: var(--color-black-dark);
   text-transform: capitalize;
   margin: 4rem 0;
 }
