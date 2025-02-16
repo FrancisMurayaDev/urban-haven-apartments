@@ -225,7 +225,7 @@ font-weight: 700;
 .about-us {
   display: flex;
   flex-wrap: wrap;
-  background-image: linear-gradient(rgba(21, 2, 2, 0.642), rgba(101, 53, 53, 0.692)), url(../assets/img/about-background.jpg);
+  background-image: linear-gradient(rgba(45, 43, 43, 0.642), rgba(52, 50, 50, 0.692)), url(../assets/img/about-background.jpg);
 }
 .about-main {
   display: flex;
@@ -247,6 +247,9 @@ font-weight: 700;
   text-align: center;
 }
 
+.about-main-text span {
+  color: var(--color-secondary);
+}
 .about-img {
     height: auto;
   width: 30%;
@@ -258,6 +261,8 @@ font-weight: 700;
   font-size: 2.5rem;
   padding: 0 4rem;
   font-family: var(--cury-font);
+  word-spacing: 1rem;
+  letter-spacing: 0.15rem;
 }
   
 
@@ -354,3 +359,35 @@ margin-top: 5rem;
   background-color: white;
 }
 /* end of spaces section */
+
+/* Amenities Section */
+.title-amenities {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 3rem 0;
+  border-top: 1px solid var(--color-primary);
+}
+.title-amenities span {
+  color: var(--color-secondary);
+}
+
+.amenities-list {
+  display: flex;
+  list-style:none:
+  font-weight: 600;
+  gap: 3rem;
+  padding: 2rem 2rem;
+  flex-wrap:wrap;
+  color: var(--color-black-dark);
+}
+.amenities-list li {
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 1rem;
+}
+/* End of Amenities  */
+
+/* Form Section */
+/* End of form section */
