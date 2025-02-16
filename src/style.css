@@ -230,7 +230,7 @@ font-weight: 700;
 }
 
 .title-main {
-  font-size: 4rem;
+  font-size: 5rem;
 
 }
 
@@ -302,7 +302,7 @@ margin-top: 5rem;
   height: var(--amenity-action-size);
   width: var(--amenity-action-size);
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid rgb(155, 236, 170);
   display: flex;
   justify-content: center;
   align-items: center;
