@@ -222,9 +222,20 @@ font-weight: 700;
 /* End of hero section stylings */
 
 /* spaces section */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-main {
+  font-size: 4rem;
+
+}
 
 .spaces-section{
-margin-top: 10rem;
+margin-top: 5rem;
 }
 .amenities-container {
   display: flex;
